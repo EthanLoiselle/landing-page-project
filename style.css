@@ -1,13 +1,20 @@
 /* CSS Style Sheet */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
   height: 100%;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Roboto, 'Times New Roman', Times, serif;
+  display: flex;
+  flex-flow: column wrap;
+  padding: 0;
+  margin: 0;
 }
 
 .section1 {
     background-color: #1F2937;
     display: flex;
+    flex-flow: column wrap;
 }
 
 .section2 {
@@ -24,4 +31,82 @@ body {
 
 .footer {
     background-color: #1F2937;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 16px;
+    padding: 8px 0px;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: 900;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.awesome, .text1 {
+    color: #F9FAF8;
+}
+
+.text1 {
+    font-size: 24px;
+    padding: 16px 0px;
+}
+
+.text2 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.large-img {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 52px;
+    background-color: #818388;
+    margin: auto;
+}
+
+button {
+    background-color: #3882F6;
+    color:#E5E7EB;
+    font-weight: 700;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-left: 10%;
+}
+
+.links {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    margin-left: auto;
+    margin-right: 10%;
+}
+
+.container1 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.container2 {
+    display: flex;
+    flex-flow: column wrap;
 }
