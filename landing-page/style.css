@@ -1,0 +1,27 @@
+/* CSS Style Sheet */
+
+body {
+  height: 100%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.section1 {
+    background-color: #1F2937;
+    display: flex;
+}
+
+.section2 {
+    background-color: white;
+}
+
+.section3 {
+    background-color: #E5E7EB;
+}
+
+.section4 {
+    background-color: white;
+}
+
+.footer {
+    background-color: #1F2937;
+}
