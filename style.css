@@ -14,7 +14,7 @@ body {
 .section1 {
     background-color: #1F2937;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
 }
 
 .section2 {
@@ -42,15 +42,13 @@ ul {
     list-style: none;
     display: flex;
     flex-flow: row nowrap;
-    gap: 16px;
+    gap: 32px;
     padding: 8px 0px;
 }
 
 .awesome {
     font-size: 48px;
     font-weight: 900;
-    display: flex;
-    flex-flow: row wrap;
 }
 
 .awesome, .text1 {
@@ -69,10 +67,9 @@ ul {
 
 .large-img {
     display: flex;
-    flex-flow: row wrap;
     padding: 52px;
     background-color: #818388;
-    margin: auto;
+    color: #F9FAF8;
 }
 
 button {
@@ -99,14 +96,14 @@ button {
 }
 
 .container1 {
+    width: 500px;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: flex-start;
+    align-items: center;
     margin-left: 10%;
     margin-right: 10%;
-}
-
-.container2 {
-    display: flex;
-    flex-flow: column wrap;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    row-gap: 16px;
 }
