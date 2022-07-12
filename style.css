@@ -21,13 +21,17 @@ body {
     background-color: white;
     display: flex;
     flex-flow: column nowrap;
-    margin-bottom: 4%;
+    margin-bottom: 7%;
 }
 
 .section3 {
     background-color: #E5E7EB;
     display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
     margin-top: 2%;
+    padding: 5%;
 }
 
 .section4 {
@@ -90,7 +94,6 @@ ul {
 .small-img {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
     color: gray;
     font-size: 18px;
     width: 175px;
@@ -161,8 +164,36 @@ button {
     margin-right: auto;
 }
 
+.bluesquare {
+    display: flex;
+    width: 155px;
+    height: 155px;
+    border-radius: 10px;
+    border-style: ridge;
+    border-color: rgb(0, 89, 255);
+    margin-bottom: 8px;
+}
+
 .lol {
     display: flex;
-    width: 150px;
+    width: 160px;
     justify-content: center;
+}
+
+.quote {
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    width: 650px;
+}
+
+.quote2 {
+    display: flex;
+    width: 650px;
+    justify-content: flex-end;
+    font-weight: 700;
+    font-size: 24px;
 }
